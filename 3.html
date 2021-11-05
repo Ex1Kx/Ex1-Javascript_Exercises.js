@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let copia = (prompt("Ingrese La Cantidad De Copias A Sacar: "));
+        let imp1 = 120;
+        let imp2 = 100;
+        let imp3 = 80;
+        let imp4 = 50;
+        if(copia <= 499){
+            let ci1 = (copia * imp1);
+            alert("El Precio De La Copia Es De $120");
+            alert("El Precio A Pagar Es De: "+ ci1);
+        }
+        else if(copia <= 749){
+            let ci2 = (copia * imp2);
+            alert("El Precio De La Copia Es De $100");
+            alert("El Precio A Pagar Es De: "+ ci2);
+        }
+        else if(copia <= 999){
+            let ci3 = (copia * imp3);
+            alert("El Precio De La Copia Es De $80");
+            alert("El Precio A Pagar Es De: "+ci3);
+        }
+        else if(copia => 1000){
+            let ci4 = (copia * imp4);
+            alert("El Precio De La Copia Es De $50");
+            alert("El Precio A Pagar Es De: "+ci4);
+        }
+    </script>
+    
+</body>
+</html>
